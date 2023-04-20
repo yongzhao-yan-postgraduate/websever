@@ -36,7 +36,7 @@ make
 ./webbench-1.5/webbench -c 10000 -t 10 http://ip:port/
 ```
 
-- 测试环境: Ubuntu:20 cpu:i7-4790 内存:16G
+- 测试环境: Ubuntu:18 cpu:i5-9400F 内存:8G
 
 ## 性能表现
 
