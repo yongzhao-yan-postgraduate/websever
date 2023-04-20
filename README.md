@@ -2,7 +2,7 @@
 
 用C++实现的高性能WEB服务器，经过webbenchh压力测试可以实现上万的QPS
 
-项目地址：https://github.com/yongzhao-yan-postgraduate/webserver/
+项目地址：https://github.com/yongzhao-yan-postgraduate/tree/webserver
 
 ## 功能
 
@@ -45,7 +45,7 @@ make
 |      |  10   |  100  | 1000  | 10000 |
 | :--: | :---: | :---: | :---: | :---: |
 | old  | 8929  | 9126  | 9209  |  155  |
-| new  | 12252 | 13578 | 13375 |  106  |
+| new  | 12252 | 13596 | 13237 |  110  |
 
 性能提升了45%
 
