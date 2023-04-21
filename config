@@ -1,7 +1,13 @@
-# Read more about SSH config files: https://linux.die.net/man/5/ssh_config
-Host 192.168.126.144
-    HostName 192.168.126.144
-
-
-
-
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = git@github.com:yongzhao-yan-postgraduate/websever.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
